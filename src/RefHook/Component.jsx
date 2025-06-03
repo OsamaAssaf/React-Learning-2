@@ -1,9 +1,9 @@
 import { useEffect, useRef } from "react";
 
 function Component() {
-  const inputRef1 = useRef();
-  const inputRef2 = useRef();
-  const inputRef3 = useRef();
+  const inputRef1 = useRef(null);
+  const inputRef2 = useRef(null);
+  const inputRef3 = useRef(null);
 
   useEffect(() => {
     console.log("COMPONENT RENDERED");
@@ -31,8 +31,10 @@ function Component() {
     <>
       <button onClick={handleClick1}>Click me1!</button>
       <input type="text" ref={inputRef1} />
+      <br />
       <button onClick={handleClick2}>Click me2!</button>
       <input type="text" ref={inputRef2} />
+      <br />
       <button onClick={handleClick3}>Click me3!</button>
       <input type="text" ref={inputRef3} />
     </>

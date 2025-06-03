@@ -1,9 +1,9 @@
-import Component from "./RefHook/Component";
+import Stopwatch from "./Stopwatch/Stopwatch";
 
 function App() {
   return (
     <>
-      <Component />
+      <Stopwatch />
     </>
   );
 }
