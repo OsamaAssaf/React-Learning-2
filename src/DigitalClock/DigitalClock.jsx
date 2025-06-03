@@ -1,3 +1,4 @@
+import "./DigitalClock.css";
 import { useEffect } from "react";
 import { useState } from "react";
 
